@@ -166,15 +166,28 @@
     opacity: 0.8;
 }
 
+
 @media (max-width: 1028px){
     .top-container img  {
-        position: static;
+        width: 220px;
+        height: 450px;
         transform: rotate(0);
     }
 
     .top-container {
         text-align: center;
     }
+
+    .title {
+        font-size: 2.8rem;
+        line-height: 1.5;
+        font-weight: 800;
+    }
+
+    #testimonials h2, .cta-title {
+        font-size: 2.5rem;
+    }
+    
 }
 
 
